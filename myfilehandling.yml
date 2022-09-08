@@ -2,7 +2,8 @@
 - hosts: 172.31.19.174
   become: yes
   tasks:
-  - name: create a file
+  - include_tasks: myfile.yml
+  - name: create a folder
     file:
-      path: /home/ubuntu/mytest
-      state: touch
+      path: /home/ubuntu/myfolder
+      state: directory
