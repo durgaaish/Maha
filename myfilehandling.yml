@@ -14,6 +14,6 @@
       dest: /home/ubuntu/my2file
 
   - name: move a file from master to node
-    move:
+    copy:
       src: my3file.txt
       dest: /home/ubuntu/myfolder/my3file
