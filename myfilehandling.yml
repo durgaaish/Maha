@@ -1,0 +1,8 @@
+---
+- hosts: 172.31.19.174
+  become: yes
+  tasks:
+  - name: create a file
+    file:
+      path: /home/ubuntu/mytest
+      state: file
