@@ -5,4 +5,4 @@
   - name: create a file
     file:
       path: /home/ubuntu/mytest
-      state: file
+      state: touch
