@@ -25,7 +25,7 @@
 
   - name: download internet file
     get_url:
-      url: https://dpaug13.s3.amazonaws.com/New+Text+Document.txt
+      url: https://dpaug13.s3.us-east-1.amazonaws.com/New+Text+Document.txt
       dest: /home/ubuntu/New+Text+Document.txt
       force_basic_auth: yes
 
