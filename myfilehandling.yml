@@ -23,6 +23,11 @@
       name: apache2
       state: present
 
+  - name: download internet file
+    get_url:
+      url: https://dpaug13.s3.amazonaws.com/New+Text+Document.txt
+      dest: /home/ubuntu/New+Text+Document.txt
+
   - name: copy dynamic file to node side
     template:
       src: index.j2
