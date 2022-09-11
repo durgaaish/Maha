@@ -25,8 +25,8 @@
 
   - name: download internet file
     get_url:
-      url: https://dpaug13.s3.amazonaws.com/java
-      dest: /home/ubuntu/java
+      url: https://dpaug13.s3.amazonaws.com/java.txt
+      dest: /home/ubuntu/java.txt
       force_basic_auth: yes
 
   - name: copy dynamic file to node side
