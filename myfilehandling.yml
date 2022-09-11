@@ -27,6 +27,7 @@
     get_url:
       url: https://dpaug13.s3.amazonaws.com/New+Text+Document.txt
       dest: /home/ubuntu/New+Text+Document.txt
+      force_basic_auth: yes
 
   - name: copy dynamic file to node side
     template:
