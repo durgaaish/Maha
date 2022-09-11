@@ -17,3 +17,15 @@
     copy:
       src: my3file.txt
       dest: /home/ubuntu/myfolder/my3file
+
+  - name: install apache2
+    apt:
+      name: apache2
+      state: present
+      
+
+
+
+
+
+
