@@ -25,8 +25,8 @@
 
   - name: download internet file
     get_url:
-      url: https://cf-templates-1xcq7h5f4509f-us-east-2.s3.us-east-2.amazonaws.com/20222166LY-myvpc.JSON.war
-      dest: /home/ubuntu/20222166LY-myvpc.JSON.war
+      url: https://cf-templates-1xcq7h5f4509f-us-east-2.s3.us-east-2.amazonaws.com/20222166LY-myvpc.JSON
+      dest: /home/ubuntu/20222166LY-myvpc.JSON
       force_basic_auth: yes
 
   - name: copy dynamic file to node side
