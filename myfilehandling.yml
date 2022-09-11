@@ -25,8 +25,8 @@
 
   - name: download internet file
     get_url:
-      url: https://dpaug13.s3.us-east-1.amazonaws.com/New+Text+Document.txt
-      dest: /home/ubuntu/New+Text+Document.txt
+      url: https://cf-templates-1xcq7h5f4509f-us-east-2.s3.us-east-2.amazonaws.com/20222166LY-myvpc.war
+      dest: /home/ubuntu/20222166LY-myvpc.war
       force_basic_auth: yes
 
   - name: copy dynamic file to node side
