@@ -1,2 +1,8 @@
 ---
 # tasks file for tomcatrole
+- include_tasks: mytomuser.yml
+- include_tasks: installjava.yml
+- include_tasks: download.yml
+- include_tasks: premission.yml
+- include_tasks: mytomdashboard.yml
+- include_tasks: systemstart.yml
